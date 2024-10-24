@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: darkblue;
+  color: white;
+}
+
+.main{
+  background-color: beige;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}

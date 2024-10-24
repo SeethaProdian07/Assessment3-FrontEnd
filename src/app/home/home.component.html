@@ -1,0 +1,34 @@
+<div class="main">
+<div class="header fixed-top">
+  <ul class="list-inline p-4">
+    <li class="list-inline-item ms-5"><h1>Sports</h1></li>
+    <li routerLink="/home" class="list-inline-item ms-3"><h5 routerLink="/home">Home</h5></li>
+    <li class="list-inline-item ms-3"><h5>Upcoming Events</h5></li>
+    <li class="list-inline-item ms-3"><h5 routerLink="/user">User</h5></li>
+  </ul>
+</div>
+
+
+<div class="div">
+<table class="table table-bordered">
+  <thead class="text-center">
+    <tr>
+      <th>Sl.No</th>
+      <th>Event Title</th>
+      <th>Event Date</th>
+      <th>Location</th>
+      <th>Register</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of datas, index as i">
+     <td class="text-center">{{i+1}}</td>
+     <td>{{item.eventName}}</td>
+     <td class="text-center">{{item.eventDate}}</td>
+     <td class="text-center">{{item.location}}</td>
+     <td class="text-center"><button routerLink="/login">Register</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>

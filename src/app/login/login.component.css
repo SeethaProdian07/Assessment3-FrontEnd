@@ -1,0 +1,22 @@
+.main{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+}
+
+.form{
+  height: auto;
+  width: 30%;
+  border: none;
+  background-color: beige;
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
